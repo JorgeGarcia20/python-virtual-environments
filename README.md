@@ -7,3 +7,10 @@ Para poder ejecutar el juego sera necesario ejecutar el siguiente comando desde 
 ```sh
 python3 game/main.py
 ```
+Creacion y configuracion del ambiente virtual para app
+```sh
+cd app
+python -m venv evn
+source env/Scripts/activate
+pip install -r requirements.txt
+```
